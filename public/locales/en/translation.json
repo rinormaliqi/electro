@@ -1,0 +1,158 @@
+{
+  "header": {
+    "topBar": {
+      "phone": "Phone: +383 45 123 456",
+      "email": "Email: info@solarpro.com",
+      "promotion": "30% Federal Tax Credit - Save up to €15,000!"
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "buttons": {
+      "calculate": "Calculate Savings",
+      "quote": "Free Quote"
+    }
+  },
+  "hero": {
+    "badge": "Clean Energy Solutions",
+    "title": "Power Your Future with ",
+    "titleHighlight": "Solar Energy",
+    "description": "Transform your home or business with sustainable solar solutions. Save money, reduce your carbon footprint, and embrace energy independence.",
+    "buttons": {
+      "getQuote": "Get Free Quote",
+      "learnMore": "Learn More"
+    },
+    "stats": {
+      "installations": "Installations",
+      "warranty": "Warranty",
+      "taxCredit": "Tax Credit"
+    },
+    "dashboard": {
+      "energyGenerated": "Energy Generated Today",
+      "monthlySavings": "Monthly Savings"
+    }
+  },
+  "calculator": {
+    "badge": "Solar Calculator",
+    "title": "Calculate Your Solar Savings",
+    "description": "Get an instant estimate of your solar installation cost and potential savings",
+    "form": {
+      "title": "Solar Savings Calculator",
+      "monthlyBill": "Monthly Electric Bill (€)",
+      "roofArea": "Available Roof Area (m²)",
+      "location": "Location (City, Municipality)",
+      "calculate": "Calculate Savings"
+    },
+    "results": {
+      "title": "Your Solar Estimate",
+      "systemSize": "System Size",
+      "annualProduction": "Annual Production",
+      "monthlySavings": "Monthly Savings",
+      "annualSavings": "Annual Savings",
+      "investmentDetails": "Investment Details",
+      "systemCost": "System Cost:",
+      "federalTaxCredit": "Federal Tax Credit (30%):",
+      "netCost": "Net Cost:",
+      "paybackPeriod": "Payback Period:",
+      "years": "years"
+    },
+    "placeholder": {
+      "title": "Ready to Calculate?",
+      "description": "Fill out the form to see your personalized solar savings estimate"
+    }
+  },
+  "projects": {
+    "badge": "Our Projects",
+    "title": "Powering Communities Across Kosovo",
+    "description": "From residential rooftops to large commercial installations, see how we're helping customers save with solar",
+    "types": {
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "industrial": "Industrial"
+    },
+    "projects": [
+      {
+        "title": "Residential Solar Installation",
+        "location": "Pristina, Kosovo",
+        "capacity": "15 kW",
+        "savings": "€2,400/year"
+      },
+      {
+        "title": "Commercial Solar Array",
+        "location": "Prizren, Kosovo",
+        "capacity": "250 kW",
+        "savings": "€48,000/year"
+      },
+      {
+        "title": "Industrial Solar Farm",
+        "location": "Gjilan, Kosovo",
+        "capacity": "1.2 MW",
+        "savings": "€180,000/year"
+      }
+    ],
+    "systemSize": "System Size",
+    "annualSavings": "Annual Savings",
+    "viewAll": "View All Projects"
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Ready to Go Solar?",
+    "description": "Get your free consultation and personalized solar proposal. Our experts are here to help you every step of the way.",
+    "info": {
+      "call": "Call Us",
+      "email": "Email Us",
+      "visit": "Visit Us"
+    },
+    "whyChoose": {
+      "title": "Why Choose SolarPro?",
+      "points": [
+        "25-year warranty on all installations",
+        "Licensed and insured professionals",
+        "Free maintenance for first 5 years"
+      ]
+    },
+    "form": {
+      "title": "Request Your Free Quote",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Property Address",
+      "electricBill": "Average Monthly Electric Bill",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your solar needs...",
+      "submit": "Get My Free Quote"
+    }
+  },
+  "footer": {
+    "description": "Leading Kosovo's solar revolution with cutting-edge technology and exceptional service. Powering a sustainable future, one home at a time.",
+    "services": {
+      "title": "Services",
+      "residential": "Residential Solar",
+      "commercial": "Commercial Solar",
+      "maintenance": "Solar Maintenance",
+      "battery": "Battery Storage",
+      "evCharging": "EV Charging"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "123 Solar Street\nPristina, Kosovo 10000",
+      "phone": "+383 45 123 456",
+      "email": "info@solarpro.com"
+    },
+    "environmental": {
+      "title": "Going Green",
+      "description": "Over 2.5M tons of CO₂ saved by our solar installations"
+    },
+    "bottom": {
+      "copyright": "© {year} SolarPro. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "license": "License #987654"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "header": {
+    "topBar": {
+      "phone": "Telefono: +383 45 123 456",
+      "email": "Email: info@solarpro.com",
+      "promotion": "Subvencione tatimore shtetore 30% - Kurseni deri në €15,000!"
+    },
+    "nav": {
+      "home": "Ballina",
+      "services": "Shërbimet",
+      "projects": "Projektet",
+      "about": "Rreth Nesh",
+      "contact": "Kontakti"
+    },
+    "buttons": {
+      "calculate": "Llogarit Kursimet",
+      "quote": "Ofertë Falas"
+    }
+  },
+  "hero": {
+    "badge": "Zgjidhjet e Energjisë së Pastër",
+    "title": "Fuqizo të Ardhmen Tënde me ",
+    "titleHighlight": "Energji Diellore",
+    "description": "Transformo shtëpinë apo biznesin tënd me zgjidhje diellore të qëndrueshme. Kurse para, zvogëlo gjurmën e karbonit, dhe përqafoje pavarësinë energjetike.",
+    "buttons": {
+      "getQuote": "Merr Ofertë Falas",
+      "learnMore": "Mëso Më Shumë"
+    },
+    "stats": {
+      "installations": "Instalime",
+      "warranty": "Garanci",
+      "taxCredit": "Kredit Tatimor"
+    },
+    "dashboard": {
+      "energyGenerated": "Energjia e Prodhuar Sot",
+      "monthlySavings": "Kursimet Mujore"
+    }
+  },
+  "calculator": {
+    "badge": "Llogaritësi Diellor",
+    "title": "Llogarit Kursimet e Tua Diellore",
+    "description": "Merr një vlerësim të menjëhershëm të kostos së instalimit diellor dhe kursimeve të mundshme",
+    "form": {
+      "title": "Llogaritësi i Kursimeve Diellore",
+      "monthlyBill": "Fatura Mujore e Energjisë Elektrike (€)",
+      "roofArea": "Sipërfaqja e Disponueshme e Çatisë (m²)",
+      "location": "Vendndodhja (Qyteti, Komuna)",
+      "calculate": "Llogarit Kursimet"
+    },
+    "results": {
+      "title": "Vlerësimi Yt Diellor",
+      "systemSize": "Madhësia e Sistemit",
+      "annualProduction": "Prodhimi Vjetor",
+      "monthlySavings": "Kursimet Mujore",
+      "annualSavings": "Kursimet Vjetore",
+      "investmentDetails": "Detajet e Investimit",
+      "systemCost": "Kostoja e Sistemit:",
+      "federalTaxCredit": "Kreditë Tatimore Federale (30%):",
+      "netCost": "Kostoja Neto:",
+      "paybackPeriod": "Periudha e Kthimit:",
+      "years": "vjet"
+    },
+    "placeholder": {
+      "title": "Gati për të Llogaritur?",
+      "description": "Plotëso formularin për të parë vlerësimin e personalizuar të kursimeve diellore"
+    }
+  },
+  "projects": {
+    "badge": "Projektet Tona",
+    "title": "Fuqizojmë Komunitetet në të Gjithë Kosovën",
+    "description": "Nga çatitë banesore deri tek instalimet e mëdha komerciale, shiko se si po i ndihmojmë klientët të kursejnë me energji diellore",
+    "types": {
+      "residential": "Banesore",
+      "commercial": "Komerciale",
+      "industrial": "Industriale"
+    },
+    "projects": [
+      {
+        "title": "Instalim Diellor Banesor",
+        "location": "Prishtinë, Kosovë",
+        "capacity": "15 kW",
+        "savings": "€2,400/vit"
+      },
+      {
+        "title": "Grup Diellor Komerc",
+        "location": "Prizren, Kosovë",
+        "capacity": "250 kW",
+        "savings": "€48,000/vit"
+      },
+      {
+        "title": "Fermë Diellore Industriale",
+        "location": "Gjilan, Kosovë",
+        "capacity": "1.2 MW",
+        "savings": "€180,000/vit"
+      }
+    ],
+    "systemSize": "Madhësia e Sistemit",
+    "annualSavings": "Kursimet Vjetore",
+    "viewAll": "Shiko Të Gjitha Projektet"
+  },
+  "contact": {
+    "badge": "Kontakto",
+    "title": "Gati për Energji Diellore?",
+    "description": "Merr konsultimin tënd falas dhe propozimin e personalizuar diellor. Ekspertët tanë janë këtu për të të ndihmuar në çdo hap.",
+    "info": {
+      "call": "Na Telefono",
+      "email": "Na Shkruaj",
+      "visit": "Na Vizito"
+    },
+    "whyChoose": {
+      "title": "Pse të Zgjedhësh SolarPro?",
+      "points": [
+        "Garanci 25-vjeçare në të gjitha instalimet",
+        "Profesionistë të licensuar dhe të siguruar",
+        "Mirëmbajtje falas për 5 vitet e para"
+      ]
+    },
+    "form": {
+      "title": "Kërko Ofertën Tënde Falas",
+      "firstName": "Emri",
+      "lastName": "Mbiemri",
+      "email": "Email",
+      "phone": "Telefoni",
+      "address": "Adresa e Pronës",
+      "electricBill": "Fatura Mesatare Mujore e Energjisë",
+      "message": "Mesazhi",
+      "messagePlaceholder": "Na trego për nevojat e tua diellore...",
+      "submit": "Merr Ofertën Time Falas"
+    }
+  },
+  "footer": {
+    "description": "Duke udhëhequr revolucionin diellor të Kosovës me teknologji të avancuar dhe shërbim të jashtëzakonshëm. Fuqizojmë një të ardhme të qëndrueshme, një shtëpi në herë.",
+    "services": {
+      "title": "Shërbimet",
+      "residential": "Diellore Banesore",
+      "commercial": "Diellore Komerciale",
+      "maintenance": "Mirëmbajtja Diellore",
+      "battery": "Ruajtja e Baterisë",
+      "evCharging": "Ngarkimi EV"
+    },
+    "contact": {
+      "title": "Kontakti",
+      "address": "Rruga Diellore 123\nPrishtinë, Kosovë 10000",
+      "phone": "+383 45 123 456",
+      "email": "info@solarpro.com"
+    },
+    "environmental": {
+      "title": "Duke Bërë Gjelbër",
+      "description": "Mbi 2.5M ton CO₂ të kursyer nga instalimet tona diellore"
+    },
+    "bottom": {
+      "copyright": "@2025 Rinor Maliqi. Të gjitha të drejtat e rezervuara.",
+      "privacy": "Politika e Privatësisë",
+      "terms": "Kushtet e Shërbimit",
+      "license": "Licenca"
+    }
+  }
+}
