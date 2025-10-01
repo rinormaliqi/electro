@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.t
 import { Input } from "@/components/ui/input.tsx";
 import { Label } from "@/components/ui/label.tsx";
 import { Textarea } from "@/components/ui/textarea.tsx";
-import { Sun, Zap, ArrowRight, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Home, Building, Factory, DollarSign, TrendingUp, Leaf, Shield } from "lucide-react";
+import { Sun, Zap, ArrowRight, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Home, Building, Factory, DollarSign, TrendingUp, Leaf, Shield, Users, CheckCircle, User, Award, Heart, Settings, Package, Battery, Star, Clock, ToolCase } from "lucide-react";
 import Header from "@/components/header";
 import { useState, type FormEvent } from "react";
 import { useTranslation } from "react-i18next";
@@ -194,6 +194,243 @@ export default function Index() {
           </div>
         </div>
       </div>
+
+            {/* Rreth Nesh Section */}
+<div className="bg-gradient-to-br from-gray-50 to-blue-50 py-20">
+  <div className="container mx-auto px-4">
+    <div className="max-w-6xl mx-auto">
+      {/* Header */}
+      <div className="text-center mb-16">
+        <div className="flex items-center justify-center gap-2 text-blue-600 mb-4">
+          <Users className="size-6" />
+          <span className="text-sm font-medium tracking-wide uppercase">Ekipi Jonë</span>
+        </div>
+        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          Ekspertët në 
+          <span className="text-yellow-500"> Energji Diellore</span>
+        </h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          Me më shumë se 15 vjet përvojë në industri, ne sjellim inovacion dhe besueshmëri në çdo projekt
+        </p>
+      </div>
+
+      <div className="grid lg:grid-cols-2 gap-12 items-center">
+        {/* Left Content - Staff */}
+        <div className="space-y-8">
+          {/* Team Stats */}
+          <div className="grid grid-cols-2 gap-6">
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
+              <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
+              <div className="text-gray-700">Profesionistë të Certifikuar</div>
+            </div>
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-yellow-100">
+              <div className="text-3xl font-bold text-yellow-500 mb-2">15+</div>
+              <div className="text-gray-700">Vite Përvojë</div>
+            </div>
+          </div>
+
+          {/* Company Facts */}
+          <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-8 text-white">
+            <h3 className="text-2xl font-bold mb-4">Fakte për Kompaninë</h3>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-3">
+                <CheckCircle className="size-5 text-yellow-300" />
+                <span>Kompania e parë me certifikim EUROPEAN në vend</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle className="size-5 text-yellow-300" />
+                <span>Partner i autorizuar me 20+ marka botërore</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle className="size-5 text-yellow-300" />
+                <span>Operojmë në 5 vende të Ballkanit</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Right Visual - Team Illustration */}
+        <div className="relative">
+          <div className="bg-gradient-to-br from-blue-400 to-yellow-400 rounded-3xl p-8 shadow-2xl">
+            <div className="bg-white rounded-2xl p-6">
+              {/* Team Grid */}
+              <div className="grid grid-cols-3 gap-4 mb-6">
+     {[
+  "/images/img4.jpg",
+  "/images/img6.jpg", 
+  "/images/img5.jpg",
+  "/images/img1.jpg",
+  "/images/img2.jpg",
+  "/images/img3.jpg"
+].map((photo, i) => (
+  <div key={i} className="aspect-square rounded-xl overflow-hidden border-2 border-white shadow-lg">
+    <img 
+      src={photo} 
+      alt={`Anëtar i ekipit ${i + 1}`}
+      className="w-full h-full object-cover"
+    />
+  </div>
+))}
+              </div>
+              
+              {/* Certifications */}
+              <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                <div className="text-sm font-medium text-blue-700 mb-2">Certifikimet Tona</div>
+                <div className="flex gap-2">
+                  {['ISO 9001', 'TÜV', 'EU Solar'].map((cert, index) => (
+                    <div key={index} className="bg-white px-3 py-1 rounded-lg text-xs font-medium text-blue-600 border border-blue-200">
+                      {cert}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Floating Elements */}
+          <div className="absolute -top-4 -left-4 bg-yellow-400 rounded-full p-3 shadow-lg">
+            <Award className="size-6 text-white" />
+          </div>
+          <div className="absolute -bottom-4 -right-4 bg-blue-500 rounded-full p-3 shadow-lg">
+            <Heart className="size-6 text-white" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* Shërbimet Tona Section */}
+<div className="bg-gradient-to-br from-yellow-50 to-blue-50 py-20">
+  <div className="container mx-auto px-4">
+    <div className="max-w-6xl mx-auto">
+      {/* Header */}
+      <div className="text-center mb-16">
+        <div className="flex items-center justify-center gap-2 text-blue-600 mb-4">
+          <Settings className="size-6" />
+          <span className="text-sm font-medium tracking-wide uppercase">Shërbimet Tona</span>
+        </div>
+        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          Zgjidhje Complete 
+          <span className="text-yellow-500"> Diellore</span>
+        </h2>
+      </div>
+
+      {/* 3-Column Layout */}
+      <div className="grid md:grid-cols-3 gap-8">
+        
+        {/* Left Column - Installation Services */}
+        <div className="bg-white rounded-2xl p-6 shadow-lg border border-blue-100 hover:shadow-xl transition-all duration-300">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-blue-100 p-3 rounded-xl">
+              <Home className="size-6 text-blue-600" />
+            </div>
+            <h3 className="text-xl font-bold text-gray-900">Instalime Diellore</h3>
+          </div>
+          
+          <ul className="space-y-4 text-gray-600 mb-6">
+            <li className="flex items-center gap-3">
+              <CheckCircle className="size-5 text-green-500" />
+              <span>Sisteme rezidenciale</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <CheckCircle className="size-5 text-green-500" />
+              <span>Sisteme komerciale</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <CheckCircle className="size-5 text-green-500" />
+              <span>Sisteme industriale</span>
+            </li>
+          </ul>
+          
+          <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+            <div className="flex items-center gap-2 mb-1">
+              <Star className="size-4 text-yellow-500" />
+              <span className="font-medium text-blue-700">Instalim Profesional</span>
+            </div>
+            <div className="text-sm text-blue-600">Ekip i certifikuar me përvojë 10+ vjeçare</div>
+          </div>
+        </div>
+
+        {/* Middle Column - Products */}
+        <div className="bg-white rounded-2xl p-6 shadow-lg border border-yellow-100 hover:shadow-xl transition-all duration-300">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-yellow-100 p-3 rounded-xl">
+              <Package className="size-6 text-yellow-600" />
+            </div>
+            <h3 className="text-xl font-bold text-gray-900">Produktet</h3>
+          </div>
+          
+          <div className="grid grid-cols-1 gap-4 mb-6">
+            {[
+              { name: 'Panele Solar', desc: 'Efikasitet i lartë 20-22%' },
+              { name: 'Inverterë', desc: 'Konvertim optimal i energjisë' },
+              { name: 'Bateri', desc: 'Ruajtje e zgjeruar e energjisë' },
+              { name: 'Sisteme Monitorimi', desc: 'Kontroll në kohë reale' }
+            ].map((product, index) => (
+              <div key={index} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors">
+                <Zap className="size-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                <div>
+                  <div className="font-medium text-gray-800">{product.name}</div>
+                  <div className="text-sm text-gray-500">{product.desc}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="bg-yellow-50 rounded-xl p-4 border border-yellow-200">
+            <div className="flex items-center gap-2 mb-1">
+              <Shield className="size-4 text-yellow-600" />
+              <span className="font-medium text-yellow-700">Garanci 25 Vjeçare</span>
+            </div>
+            <div className="text-sm text-yellow-600">Mbulim i plotë për të gjitha produktet</div>
+          </div>
+        </div>
+
+        {/* Right Column - Maintenance & Support */}
+        <div className="bg-white rounded-2xl p-6 shadow-lg border border-green-100 hover:shadow-xl transition-all duration-300">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-green-100 p-3 rounded-xl">
+              <Settings className="size-6 text-green-600" />
+            </div>
+            <h3 className="text-xl font-bold text-gray-900">Mirëmbajtja & Mbështetja</h3>
+          </div>
+          
+          <div className="space-y-4 mb-6">
+            <div className="flex items-start gap-3">
+              <Clock className="size-5 text-green-500 mt-0.5" />
+              <div>
+                <div className="font-medium text-gray-800">Shërbim 24/7</div>
+                <div className="text-sm text-gray-500">Ndihmë teknike gjatë gjithë orës</div>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <ToolCase className="size-5 text-green-500 mt-0.5" />
+              <div>
+                <div className="font-medium text-gray-800">Mirëmbajtje Periodike</div>
+                <div className="text-sm text-gray-500">Kontroll dhe pastrim i rregullt</div>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <TrendingUp className="size-5 text-green-500 mt-0.5" />
+              <div>
+                <div className="font-medium text-gray-800">Monitorim Performancës</div>
+                <div className="text-sm text-gray-500">Analizë e efikasitetit të sistemit</div>
+              </div>
+            </div>
+          </div>
+          
+          <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-3">
+            Kërko Konsultim Falas
+            <ArrowRight className="ml-2 size-4" />
+          </Button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
       {/* Solar Calculator Section */}
       <section className="py-20 bg-white">
@@ -397,7 +634,6 @@ export default function Index() {
           </div>
         </div>
       </section>
-
       {/* Contact Form Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -538,9 +774,15 @@ export default function Index() {
               {/* Company Info */}
               <div className="lg:col-span-2">
                 <div className="flex items-center gap-2 mb-6">
-                  <div className="bg-gradient-to-r from-blue-400 to-yellow-400 p-2 rounded-lg">
-                    <Sun className="size-6 text-white" />
-                  </div>
+             <div className="bg-gradient-to-r from-blue-600 to-yellow-500 p-2 rounded-lg">
+    <img
+      src="/logo.jpg" // update with your image path
+      alt="Logo"
+      width={24}
+      height={24}
+      className="object-contain"
+    />
+  </div>
                   <span className="text-2xl font-bold">Electron Solar</span>
                 </div>
                 
