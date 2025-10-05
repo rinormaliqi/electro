@@ -25,7 +25,7 @@ export function LanguageToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => changeLanguage('sq')}>
-          <span className="mr-2">🇽🇰</span>
+          <span className="mr-2">🇦🇱</span>
           Shqip
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => changeLanguage('en')}>

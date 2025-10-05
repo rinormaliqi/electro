@@ -15,22 +15,34 @@ export default function Header() {
   return (
     <>
       {/* Top Bar - Desktop Only (NOT sticky) */}
-      <div className="hidden lg:block bg-blue-600 text-white">
+      <div className="hidden lg:block bg-green-600 text-white">
         <div className="container mx-auto px-4 py-2">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <Phone className="size-3" />
-                <span>{t('header.topBar.phone')}</span>
+                <a
+                  href="https://wa.me/355692823346"
+  target="_blank"
+  rel="noopener noreferrer">{t('header.topBar.phone')}</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="size-3" />
                 <span>{t('header.topBar.email')}</span>
               </div>
             </div>
-            <div className="text-yellow-300 font-medium">
-              {t('header.topBar.promotion')}
-            </div>
+<div className="text-yellow-300 font-medium">
+  <a
+    href="https://eficenca.gov.al/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:underline hover:text-yellow-400 transition-colors duration-200"
+  >
+    {t('header.topBar.promotion')}
+  </a>
+</div>
+
+
           </div>
         </div>
       </div>
@@ -41,51 +53,50 @@ export default function Header() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div className="bg-gradient-to-r from-blue-600 to-yellow-500 p-2 rounded-lg">
-                <img
-                  src="/logo.jpg"
-                  alt="Logo"
-                  width={24}
-                  height={24}
-                  className="object-contain"
-                />
-              </div>
-              <span className="text-2xl font-bold text-gray-900">Electron Solar</span>
+<div className="bg-none p-2 rounded-lg w-24 h-16">
+  <img
+    src="/logo.jpg"
+    alt="Logo"
+    className="w-full h-full object-cover rounded-lg"
+  />
+</div>
+
+              <a href="/" className="text-2xl font-bold text-gray-900">E&A Green Solar</a>
             </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
               <a 
-                href="#" 
-                className="text-gray-700 hover:text-blue-600 font-medium relative group transition-colors"
+                href="/" 
+                className="text-gray-700 hover:text-green-600 font-medium relative group transition-colors"
               >
                 {t('header.nav.home')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
               </a>
               <a 
-                href="#" 
-                className="text-gray-700 hover:text-blue-600 font-medium relative group transition-colors"
+                href="#services"
+                className="text-gray-700 hover:text-green-600 font-medium relative group transition-colors"
               >
                 {t('header.nav.services')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
               </a>
               <a 
-                href="#" 
-                className="text-gray-700 hover:text-blue-600 font-medium relative group transition-colors"
+                href="#insta"
+                className="text-gray-700 hover:text-green-600 font-medium relative group transition-colors"
               >
                 {t('header.nav.projects')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
               </a>
               <a 
-                href="#" 
-                className="text-gray-700 hover:text-blue-600 font-medium relative group transition-colors"
+               href="#about"
+                className="text-gray-700 hover:text-green-600 font-medium relative group transition-colors"
               >
                 {t('header.nav.about')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
               </a>
               <a 
-                href="#" 
-                className="text-gray-700 hover:text-blue-600 font-medium relative group transition-colors"
+                href="#contact" 
+                className="text-gray-700 hover:text-green-600 font-medium relative group transition-colors"
               >
                 {t('header.nav.contact')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
@@ -100,14 +111,19 @@ export default function Header() {
                 size="sm"
                 className="border-yellow-500 text-yellow-600 hover:bg-yellow-50"
               >
+                <a href="/calc">
                 {t('header.buttons.calculate')}
+
+                </a>
               </Button>
+                      <a href="#contact">
               <Button 
                 size="sm"
-                className="bg-blue-600 hover:bg-blue-700 text-white"
+                className="bg-green-600 hover:bg-green-700 text-white"
               >
                 {t('header.buttons.quote')}
               </Button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -128,19 +144,19 @@ export default function Header() {
           {isMobileMenuOpen && (
             <div className="md:hidden border-t border-gray-100 py-4">
               <nav className="flex flex-col gap-4">
-                <a href="#" className="text-gray-700 hover:text-blue-600 font-medium py-2">
+                <a href="#" className="text-gray-700 hover:text-green-600 font-medium py-2">
                   {t('header.nav.home')}
                 </a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 font-medium py-2">
+                <a href="#" className="text-gray-700 hover:text-green-600 font-medium py-2">
                   {t('header.nav.services')}
                 </a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 font-medium py-2">
+                <a href="#" className="text-gray-700 hover:text-green-600 font-medium py-2">
                   {t('header.nav.projects')}
                 </a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 font-medium py-2">
+                <a href="#" className="text-gray-700 hover:text-green-600 font-medium py-2">
                   {t('header.nav.about')}
                 </a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 font-medium py-2">
+                <a href="#" className="text-gray-700 hover:text-green-600 font-medium py-2">
                   {t('header.nav.contact')}
                 </a>
                 <div className="flex flex-col gap-2 pt-4 border-t border-gray-100">
@@ -149,11 +165,14 @@ export default function Header() {
                     size="sm"
                     className="border-yellow-500 text-yellow-600 hover:bg-yellow-50"
                   >
+                    <a href="/calc">
                     {t('header.buttons.calculate')}
+
+                    </a>
                   </Button>
                   <Button 
                     size="sm"
-                    className="bg-blue-600 hover:bg-blue-700 text-white"
+                    className="bg-green-600 hover:bg-green-700 text-white"
                   >
                     {t('header.buttons.quote')}
                   </Button>
